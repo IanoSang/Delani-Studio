@@ -3,3 +3,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+}
+.col-lg-12{
+    justify-content: space-around;
+    color: white;
+    align-content: center;
+}
+.about{
+    background-color: white;
+    height: 100vh;
+}
