@@ -25,3 +25,20 @@
     background-size: cover;
     color: white;
 }
+/*.s-header> h3, p {*/
+/*    margin-top: 200px;*/
+/*}*/
+.designtext{
+    display: none;
+}
+.development p{
+    display: none;
+}
+.product-management p{
+    display: none;
+}
+.row{
+   padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
