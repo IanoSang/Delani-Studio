@@ -42,3 +42,155 @@
     padding-right: 10%;
     text-align: center;
 }
+#portfolio
+{
+    background: #EFF0E0;
+}
+
+#portfolio h1
+{
+    text-align: center;
+    padding: 2rem;
+    color: #706f6a;
+}
+
+.portfolio
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,200px);
+    grid-gap: 2rem;
+    padding-bottom: 5rem;
+
+
+}
+.portfolio div:nth-child(1)
+{
+    background: url("../assets/portfolio/work1.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(2)
+{
+    background: url("../assets/portfolio/work2.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(3)
+{
+    background: url("../assets/portfolio/work3.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(4)
+{
+    background: url("../assets/portfolio/work4.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(5)
+{
+    background: url("../assets/portfolio/work5.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(6)
+{
+    background: url("../assets/portfolio/work6.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(7)
+{
+    background: url("../assets/portfolio/work7.jpg") center center/cover no-repeat;
+}
+
+.portfolio div:nth-child(8)
+{
+    background: url("../assets/portfolio/work8.jpg") center center/cover no-repeat;
+}
+/* contact us */
+#contactus{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: fixed;*/
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem
+}
+
+/*footer */
+#main-footer
+{
+    background: #EFF0E0
+}
+
+.footer
+{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: #3d3b3c;
+    height: 10vh;
+}
+.social
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+/*  making it responsive */
+@media(max-width :786px)
+{
+    .header
+    {
+        font-size: 2rem;
+    }
+
+    .about-us-text
+    {
+        width: 100%;
+        grid-template-rows: 1fr 2fr 2fr;
+    }
+    .services-text
+    {
+        width: 100%;
+        grid-template-rows: 1fr 2fr 2fr;
+    }
+    .what-we-do-text
+    {
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+    }
+    .what-we-do-text div
+    {
+        padding: 1rem 0;
+    }
+    .portfolio
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8,200px);
+    }
+    .social
+    {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 1rem
+
+    }
+    .contact
+    {
+        padding: 1rem;
+    }
+    .contact div input
+    {
+        box-sizing:border-box;
+        /*margin-top: 1rem;*/
+        width: 100%;
+    }
+    .contact div
+    {
+        flex-direction: column;
+        justify-content: space-around
+    }
+
+}
