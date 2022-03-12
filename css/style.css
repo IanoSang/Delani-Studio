@@ -16,5 +16,12 @@
 }
 .about{
     background-color: white;
-    height: 100vh;
+    height: 50vh;
+}
+.services{
+    height: 70vh;
+    /*width: 100%;*/
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    color: white;
 }
