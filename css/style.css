@@ -68,22 +68,22 @@
 }
 .portfolio div:nth-child(1)
 {
-    background: url("../assets/portfolio/work1.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work4.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(2)
 {
-    background: url("../assets/portfolio/work2.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work3.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(3)
 {
-    background: url("../assets/portfolio/work3.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work2.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(4)
 {
-    background: url("../assets/portfolio/work4.jpg") center center/cover no-repeat;
+    background: url("../assets/portfolio/work1.jpg") center center/cover no-repeat;
 }
 
 .portfolio div:nth-child(5)
@@ -107,6 +107,7 @@
 }
 /* contact us */
 #contactus{
+    height: 100vh;
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,7 +116,29 @@
     text-align: center;
     padding-top: 2rem
 }
-
+#mc_embed_signup {
+   margin-left: 25%;
+    clear: right;
+    font:14px Helvetica,Arial,sans-serif;
+    width:600px;
+}
+.msg{
+    height: 100px;
+    width: 70%;
+    /*background-color: transparent;*/
+    border: white;
+    border-radius: 30px;
+}
+.contacts{
+    margin-top: 50px;
+}
+.email{
+    margin-bottom: 10px;
+    display: flex;
+}
+.button{
+    margin-top: 10px;
+}
 /*footer */
 #main-footer
 {
