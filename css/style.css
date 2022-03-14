@@ -128,15 +128,18 @@ h2 {
     background: url("../assets/portfolio/work8.jpg") center center/cover no-repeat;
 }
 .port-overlay {
-    /*background-color: transparent;*/
+    background-color: transparent;
+    opacity: 0.5;
     height: 200px;
     color: white;
     top: 5px;
     bottom: 5px;
     right: 5px;
     left: 5px;
+    margin: 3px;
     border: 2px solid white;
     display: none;
+    text-align: center;
 }
 /* contact us */
 #contactus{
@@ -161,13 +164,13 @@ h2 {
     border: white;
     border-radius: 30px;
 }
-name {
+mce-FNAME{
     margin-right: 10px;
 }
 
-#name,
-#email,
-#textarea {
+#mce-FNAME,
+#mce-EMAIL,
+#mce-LNAME {
     background-color: transparent;
     color: white;
 }
